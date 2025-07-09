@@ -1,0 +1,6 @@
+game:
+  exe: /home/wibi/Games/Emulators/Cemu/Cemu-2.6-x86_64.AppImage
+  working_dir: /home/wibi/Games/Emulators/Cemu
+linux: {}
+system:
+  disable_runtime: true

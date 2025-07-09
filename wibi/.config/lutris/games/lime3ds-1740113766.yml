@@ -1,0 +1,6 @@
+game:
+  exe: /home/wibi/Games/Emulators/Lime3DS/lime3ds-2119.1-linux-appimage/lime3ds.AppImage
+  working_dir: /home/wibi/Games/Emulators/Lime3DS/lime3ds-2119.1-linux-appimage
+linux: {}
+system:
+  disable_runtime: true

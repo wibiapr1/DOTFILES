@@ -1,0 +1,6 @@
+game:
+  exe: /home/wibi/Games/Emulators/Sudachi/sudachi-linux-v1.0.11/sudachi
+  working_dir: /home/wibi/Games/Emulators/Sudachi/sudachi-linux-v1.0.11
+linux: {}
+system:
+  disable_runtime: true

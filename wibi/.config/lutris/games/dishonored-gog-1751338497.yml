@@ -1,0 +1,37 @@
+game:
+  arch: win64
+  exe: /home/wibi/Games/gog/dishonored/drive_c/GOG Games/Dishonored/Binaries/Win32/Dishonored.exe
+  prefix: /home/wibi/Games/gog/dishonored
+game_slug: dishonored
+name: Dishonored
+requires: null
+script:
+  files:
+  - installer: N/A:Select the game's setup file
+  game:
+    arch: win64
+    exe: $GAMEDIR/drive_c/GOG Games/Dishonored/Binaries/Win32/Dishonored.exe
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      name: create_prefix
+      prefix: $GAMEDIR
+  - task:
+      arch: win64
+      description: Installing Dishonored
+      executable: installer
+      name: wineexec
+      prefix: $GAMEDIR
+service: gog
+service_id: 1701063787
+slug: dishonored-gog
+system:
+  gamescope: true
+  gamescope_game_res: 1600x900
+  gamescope_output_res: 1920x1080
+  mangohud: false
+variables: {}
+version: GOG
+wine: {}
+year: 2012

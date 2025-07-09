@@ -1,0 +1,7 @@
+game:
+  exe: /home/wibi/Games/Emulators/Yuzu Early Access/Linux-Yuzu-EA-4176.AppImage
+  working_dir: /home/wibi/Games/Emulators/Yuzu Early Access
+linux: {}
+system:
+  disable_runtime: true
+  mangohud: false
