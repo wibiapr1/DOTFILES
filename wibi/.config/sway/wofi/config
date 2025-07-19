@@ -1,0 +1,13 @@
+allow_images=true
+image_size=64
+allow_markup=true
+width=600
+height=300
+insensitive=true
+location=center
+mode=drun,run
+columns=1
+padding:5
+lines=7
+sort_order=alphabetical
+gtk_dark=true

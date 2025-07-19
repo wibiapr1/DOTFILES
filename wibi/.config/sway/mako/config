@@ -1,0 +1,18 @@
+anchor=top-right
+font=Fira Sans Medium 20
+background-color=#282a36
+text-color=#bd93f9
+width=452
+height=150
+margin=0,0,20
+padding=10
+border-size=3
+border-color=#bd93f9
+border-radius=5
+max-icon-size=128
+text-alignment=center
+default-timeout=4000
+group-by=summary
+
+[grouped]
+format=<b>%s</b>\n%b

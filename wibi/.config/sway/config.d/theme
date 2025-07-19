@@ -1,0 +1,30 @@
+# Apply gtk theming
+# exec_always ~/.config/sway/scripts/import-gsettings
+# exec_always ~/.config/sway/scripts/ricing
+exec_always ~/.config/sway/scripts/gtkthemes
+
+# Set inner/outer gaps
+gaps inner 8
+gaps outer 6
+
+# Hide titlebar on windows: 
+default_border pixel 2
+
+# Default Font
+font pango:Fira Sans Regular 12
+
+# Thin borders:
+smart_borders off
+
+# Title format for windows
+for_window [shell="xdg_shell"] title_format "%title (%app_id)"
+for_window [shell="x_wayland"] title_format "%class - %title"
+
+## Window decoration
+# class                 border  backgr. text    indicator child_border
+client.focused          #bd93f9 #434c5e #f8f8f2 #bd93f9   #bd93f9
+client.focused_inactive #bd93f9 #282a36 #f8f8f2	#ffb86c   #ffb86c
+client.unfocused        #bd93f9 #282a36 #f8f8f2 #44475a   #44475a
+client.urgent           #ffb86c #ffb86c #282a36 #bd93f9   #ffb86c
+
+exec $HOME/.config/sway/scripts/statusbar

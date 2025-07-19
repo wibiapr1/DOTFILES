@@ -1,0 +1,315 @@
+# Logo key. Use Mod1 for Alt.
+set $mod Mod4
+
+# Variables to set
+set $terminal alacritty
+set $browser brave-browser
+set $files thunar
+set $editor geany
+
+# Your preferred application launcher
+# Note: pass the final command to swaymsg so that the resulting window can be opened
+# on the original workspace that the command was run on.
+#
+# set $smallmenu rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/sway/rofi/launcher1.rasi
+# set $grandmenu rofi -no-config -no-lazy-grab -show drun -modi drun -theme ~/.config/sway/rofi/launcher2.rasi
+# set $cheat kitty -e micro ~/.config/sway/cheatsheet.md
+
+### Idle configuration
+
+#with lock
+
+exec swayidle -w\
+    timeout 10800 'swaylock -f -C ~/.config/sway/swaylock/config'\
+    timeout 5400 'swaymsg "output * dpms off"' \
+    resume 'swaymsg "output * dpms on"' \
+    before-sleep 'swaylock -C ~/.config/sway/swaylock/config'
+
+# without lock
+#
+#exec swayidle -w\
+#    timeout 1200 'swaymsg "output * dpms off"' \
+#    resume 'swaymsg "output * dpms on"'
+
+# This will lock your screen after 300 seconds of inactivity, then turn off
+# your displays after another 300 seconds, and turn your screens back on when
+# resumed. It will also lock your screen before your computer goes to sleep.
+
+
+### Key bindings
+
+## Function keys
+bindsym $mod+F1 exec $editor
+bindsym $mod+F2 exec $browser
+bindsym $mod+F3 exec $files
+bindsym $mod+F4 exec steam -forcedesktopscaling 1.5 %U
+bindsym $mod+F5 exec lutris
+bindsym $mod+F6 exec vlc
+bindsym $mod+F7 exec flatpak run org.onlyoffice.desktopeditors
+bindsym $mod+F8 exec pavucontrol
+bindsym $mod+F9 exec flatpak run io.gitlab.librewolf-community
+bindsym $mod+F10 exec flatpak run org.qbittorrent.qBittorrent
+bindsym $mod+F11 exec ~/.config/sway/scripts/menu
+bindsym $mod+F12 exec ~/.config/sway/scripts/menu
+
+## Open File Manager
+bindsym $mod+Shift+Return exec thunar
+bindsym $mod+Shift+KP_Enter exec thunar
+
+# Start a terminal
+bindsym $mod+Return exec $terminal
+bindsym $mod+KP_Enter exec $terminal
+bindsym Ctrl+Alt+Return exec $terminal
+bindsym Ctrl+Alt+t exec $terminal
+
+# Exit Sway
+bindsym $mod+x exec ~/.config/sway/scripts/power-menu.sh
+bindsym $mod+Shift+x exec ~/.config/sway/scripts/power-menu.sh
+
+# Lock screen
+bindsym Ctrl+Alt+l exec ~/.config/sway/scripts/lockscreen
+
+# Kill focused window
+bindsym $mod+q kill
+bindsym $mod+Shift+q kill
+
+bindsym $mod+Escape exec ~/.config/sway/scripts/wkill.sh
+
+# Toggle workspaces back and forth
+bindsym $mod+tab workspace back_and_forth
+
+# Switch to prev/next workspace on all outputs
+bindsym $mod+Ctrl+Right workspace next
+bindsym $mod+Ctrl+Left workspace prev
+
+# Add and remove user from access control list
+bindsym $mod+o exec xhost +SI:localuser:root
+bindsym $mod+Shift+o exec xhost -SI:localuser:root
+
+# Reload the configuration file
+bindsym $mod+Shift+r reload
+
+# Task manager
+bindsym Ctrl+Shift+Escape exec alacritty -e btop
+bindsym Ctrl+Alt+End exec alacritty -e btop
+
+# Launcher menu
+bindsym $mod+d exec ~/.config/sway/scripts/menu
+bindsym $mod+Shift+d exec ~/.config/sway/scripts/menu
+
+# Conky
+# bindsym $mod+c exec conky-toggle
+# bindsym $mod+Ctrl+c exec killall conky
+
+# Cheatsheet
+# bindsym $mod+Shift+i exec $cheat
+
+# Drag floating windows by holding down $mod and left mouse button.
+# Resize them with right mouse button + $mod.
+# Despite the name, also works for non-floating windows.
+# Change normal to inverse to use left mouse button for resizing and right
+# mouse button for dragging.
+floating_modifier $mod normal
+
+# Control + Alt + ...
+bindsym Ctrl+Alt+b exec brave-browser
+bindsym Ctrl+Alt+c exec flatpak run dev.geopjr.Collision
+bindsym Ctrl+Alt+f exec flatpak run com.github.johnfactotum.Foliate
+bindsym Ctrl+Alt+g exec geany
+bindsym Ctrl+Alt+h exec flatpak run com.heroicgameslauncher.hgl
+bindsym Ctrl+Alt+k exec flatpak run info.febvre.Komikku
+bindsym Ctrl+Alt+p exec pavucontrol
+bindsym Ctrl+Alt+q exec flatpak run org.qbittorrent.qBittorrent
+bindsym Ctrl+Alt+u exec pavucontrol
+bindsym Ctrl+Alt+v exec flatpak run com.github.unrud.VideoDownloader
+bindsym Ctrl+Alt+w exec flatpak run com.github.hugolabe.Wike
+bindsym Ctrl+Alt+s exec spotify
+
+# Mod + ...
+bindsym $mod+w exec brave-browser
+bindsym $mod+l exec lutris
+bindsym $mod+g exec geany
+bindsym $mod+h exec flatpak run com.heroicgameslauncher.hgl
+bindsym $mod+i exec ristretto
+bindsym $mod+v exec pavucontrol
+bindsym $mod+z exec zathura
+
+# Mod + Shift + ...
+bindsym $mod+Shift+w exec flatpak run io.gitlab.librewolf-community
+bindsym $mod+Shift+l exec flatpak run net.lutris.Lutris
+bindsym $mod+Shift+c exec galculator
+bindsym $mod+Shift+g exec geany
+bindsym $mod+Shift+h exec flatpak run com.heroicgameslauncher.hgl
+bindsym $mod+Shift+s exec steam -forcedesktopscaling 1.5 %U
+bindsym $mod+Shift+v exec vlc
+bindsym $mod+Shift+z exec zathura
+
+# Mod + Control + ...
+bindsym $mod+Ctrl+c exec ~/.config/sway/scripts/changewallpaper
+bindsym $mod+Ctrl+p exec ~/.config/sway/scripts/colorpicker
+
+#
+# Moving around:
+#
+    # Move your focus around
+    bindsym $mod+Left focus left
+    bindsym $mod+Down focus down
+    bindsym $mod+Up focus up
+    bindsym $mod+Right focus right
+
+    # Move the focused window with the same, but add Shift
+    bindsym $mod+Shift+Left move left
+    bindsym $mod+Shift+Down move down
+    bindsym $mod+Shift+Up move up
+    bindsym $mod+Shift+Right move right
+#
+# Workspaces:
+#
+    # Qwerty
+    # Switch to workspace
+    bindsym $mod+1 workspace number 1
+    bindsym $mod+2 workspace number 2
+    bindsym $mod+3 workspace number 3
+    bindsym $mod+4 workspace number 4
+    bindsym $mod+5 workspace number 5
+    bindsym $mod+6 workspace number 6
+    bindsym $mod+7 workspace number 7
+    bindsym $mod+8 workspace number 8
+    bindsym $mod+9 workspace number 9
+    bindsym $mod+0 workspace number 10
+    # Move focused container to workspace
+    bindsym $mod+Shift+1 move container to workspace number 1; workspace 1
+    bindsym $mod+Shift+2 move container to workspace number 2; workspace 2
+    bindsym $mod+Shift+3 move container to workspace number 3; workspace 3
+    bindsym $mod+Shift+4 move container to workspace number 4; workspace 4
+    bindsym $mod+Shift+5 move container to workspace number 5; workspace 5
+    bindsym $mod+Shift+6 move container to workspace number 6; workspace 6
+    bindsym $mod+Shift+7 move container to workspace number 7; workspace 7
+    bindsym $mod+Shift+8 move container to workspace number 8; workspace 8
+    bindsym $mod+Shift+9 move container to workspace number 9; workspace 9
+    bindsym $mod+Shift+0 move container to workspace number 10; workspace 10
+    # Note: workspaces can have any name you want, not just numbers.
+    # We just use 1-10 as the default.
+
+    # Switch to workspace using numpad keys
+    bindsym $mod+KP_End workspace number 1
+    bindsym $mod+KP_Down workspace number 2
+    bindsym $mod+KP_Next workspace number 3
+    bindsym $mod+KP_Left workspace number 4
+    bindsym $mod+KP_Begin workspace number 5
+    bindsym $mod+KP_Right workspace number 6
+    bindsym $mod+KP_Home workspace number 7
+    bindsym $mod+KP_Up workspace number 8
+    bindsym $mod+KP_Prior workspace number 9
+    bindsym $mod+KP_Insert workspace number 10
+    # Move focused container to workspace using numpad keys
+    bindsym $mod+Shift+KP_End move container to workspace number 1; workspace 1
+    bindsym $mod+Shift+KP_Down move container to workspace number 2; workspace 2
+    bindsym $mod+Shift+KP_Next move container to workspace number 3; workspace 3
+    bindsym $mod+Shift+KP_Left move container to workspace number 4; workspace 4
+    bindsym $mod+Shift+KP_Begin move container to workspace number 5; workspace 5
+    bindsym $mod+Shift+KP_Right move container to workspace number 6; workspace 6
+    bindsym $mod+Shift+KP_Home move container to workspace number 7; workspace 7
+    bindsym $mod+Shift+KP_Up move container to workspace number 8; workspace 8
+    bindsym $mod+Shift+KP_Prior move container to workspace number 9; workspace 9
+    bindsym $mod+Shift+KP_Insert move container to workspace number 10; workspace 10
+    # Note: workspaces can have any name you want, not just numbers.
+    # We just use 1-10 as the default.
+
+#
+# Layout stuff:
+#
+    # You can "split" the current object of your focus with
+    # $mod+b or $mod+v, for horizontal and vertical splits
+    # respectively.
+    # bindsym $mod+b splith
+    # bindsym $mod+v splitv
+
+    # Switch the current container between different layout styles
+    bindsym $mod+s layout stacking
+    bindsym $mod+t layout tabbed
+    bindsym $mod+e layout toggle split
+
+    # Make the current focus fullscreen
+    bindsym $mod+f fullscreen
+
+    # Toggle the current focus between tiling and floating mode
+    bindsym $mod+Shift+space floating toggle
+
+    # Swap focus between the tiling area and the floating area
+    bindsym $mod+space focus mode_toggle
+
+    # Move focus to the parent container
+    bindsym $mod+a focus parent
+#
+# Scratchpad:
+#
+    # Sway has a "scratchpad", which is a bag of holding for windows.
+    # You can send windows there and get them back later.
+
+    # Move the currently focused window to the scratchpad
+    bindsym $mod+Shift+minus move scratchpad
+    bindsym $mod+Shift+KP_Subtract move scratchpad
+
+    # Show the next scratchpad window or hide the focused scratchpad window.
+    # If there are multiple scratchpad windows, this command cycles through them.
+    bindsym $mod+minus scratchpad show
+    bindsym $mod+KP_Subtract scratchpad show
+#
+# Resizing containers:
+#
+# mode "resize" {
+    # left will shrink the containers width
+    # right will grow the containers width
+    # up will shrink the containers height
+    # down will grow the containers height
+    # bindsym Left resize shrink width 10 px or 10 ppt
+    # bindsym Down resize grow height 10px
+    # bindsym Up resize shrink height 10px
+    # bindsym Right resize grow width 10 px or 10 ppt
+
+    # Return to default mode
+    # bindsym Return mode "default"
+    # bindsym Escape mode "default"
+# }
+
+# bindsym $mod+r mode "resize"
+
+# Resize floating windows with mouse scroll:
+bindsym --whole-window --border $mod+button4 resize shrink height 5 px or 5 ppt
+bindsym --whole-window --border $mod+button5 resize grow height 5 px or 5 ppt
+bindsym --whole-window --border $mod+shift+button4 resize shrink width 5 px or 5 ppt
+bindsym --whole-window --border $mod+shift+button5 resize grow width 5 px or 5 ppt
+
+#
+# Volume
+#
+#bindsym XF86AudioRaiseVolume exec pamixer -ui 2 && pamixer --get-volume > $SWAYSOCK.wob
+#bindsym XF86AudioLowerVolume exec pamixer -ud 2 && pamixer --get-volume > $SWAYSOCK.wob
+#bindsym XF86AudioMute exec pamixer --toggle-mute && ( pamixer --get-mute && echo 0 > $SWAYSOCK.wob ) || pamixer --get-volume > $SWAYSOCK.wob
+
+bindsym XF86AudioRaiseVolume exec ~/.config/sway/scripts/volume --inc
+bindsym XF86AudioLowerVolume exec ~/.config/sway/scripts/volume --dec
+bindsym XF86AudioMute exec ~/.config/sway/scripts/volume --toggle
+
+#
+# Player
+#
+    bindsym XF86AudioPlay exec playerctl play-pause
+    bindsym XF86AudioNext exec playerctl next
+    bindsym XF86AudioPrev exec playerctl previous
+    bindsym XF86AudioStop exec playerctl stop
+#
+# Backlight
+# install light if needed
+#    bindsym XF86MonBrightnessUp exec light -A 5 && light -G | cut -d'.' -f1 > $SWAYSOCK.wob
+#    bindsym XF86MonBrightnessDown exec light -U 5 && light -G | cut -d'.' -f1 > $SWAYSOCK.wob
+    
+#
+# Screenshots
+#
+bindsym print exec ~/.config/sway/scripts/screenshot --now
+bindsym Shift+print exec ~/.config/sway/scripts/screenshot --area
+bindsym Ctrl+print exec ~/.config/sway/scripts/screenshot --in5
+bindsym $mod+print exec ~/.config/sway/scripts/grimshot --notify copy screen
+bindsym $mod+Shift+print exec ~/.config/sway/scripts/grimshot --notify copy area
