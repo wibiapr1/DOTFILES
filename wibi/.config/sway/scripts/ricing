@@ -1,0 +1,8 @@
+#!/bin/sh
+
+gsettings set org.gnome.desktop.interface gtk-theme Dracula
+gsettings set org.gnome.desktop.interface Papirus
+gsettings set org.gnome.desktop.interface breeze_cursors
+gsettings set org.gnome.desktop.interface font-name "Fira Sans 12"
+gsettings set org.gnome.desktop.interface document-font-name "Fira Sans 12"
+gsettings set org.gnome.desktop.interface font-hinting full

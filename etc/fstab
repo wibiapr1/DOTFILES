@@ -1,0 +1,21 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# systemd generates mount units based on this file, see systemd.mount(5).
+# Please run 'systemctl daemon-reload' after making changes here.
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+/dev/mapper/kvothe--debian--vg-root /               btrfs   subvol=@,noatime,compress=zstd:1,discard=async       0       0
+/dev/mapper/kvothe--debian--vg-root /.snapshots               btrfs   subvol=@snapshots,noatime,compress=zstd:1,discard=async       0       0
+/dev/mapper/kvothe--debian--vg-root /home               btrfs   subvol=@home,noatime,compress=zstd:1,discard=async       0       0
+/dev/mapper/kvothe--debian--vg-root /root               btrfs   subvol=@root,noatime,compress=zstd:1,discard=async       0       0
+/dev/mapper/kvothe--debian--vg-root /var/log               btrfs   subvol=@log,noatime,compress=zstd:1,discard=async       0       0
+/dev/mapper/kvothe--debian--vg-root /tmp               btrfs   subvol=@tmp,noatime,compress=zstd:1,discard=async       0       0
+/dev/mapper/kvothe--debian--vg-root /opt               btrfs   subvol=@opt,noatime,compress=zstd:1,discard=async       0       0
+# /boot was on /dev/sda2 during installation
+UUID=fb6f4194-b509-4d79-a075-8d2f79910031 /boot           ext2    defaults        0       2
+# /boot/efi was on /dev/sda1 during installation
+UUID=E95D-FDAC  /boot/efi       vfat    umask=0077      0       1

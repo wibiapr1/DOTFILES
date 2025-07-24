@@ -1,0 +1,47 @@
+# sway does not set DISPLAY/WAYLAND_DISPLAY in the systemd user environment
+# See FS#63021
+# Adapted from xorg's 50-systemd-user.sh, which achieves a similar goal.
+
+# default greeting background
+output "*" bg ~/Pictures/Backgrounds/debian.png fill
+
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK XDG_CURRENT_DESKTOP=sway
+exec hash dbus-update-activation-environment 2>/dev/null && \
+     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK XDG_CURRENT_DESKTOP=sway
+
+# merge .Xdefaults
+exec xrdb -merge ~/.Xdefaults
+
+# Auth with lxpolkit:
+exec /usr/bin/lxpolkit
+
+# Desktop notifications
+exec mako -c ~/.config/sway/mako/config
+ 
+# Autotiling
+exec_always /home/wibi/.config/sway/scripts/autotiling
+
+# Welcome
+exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+
+# nm-applet
+exec nm-applet --indicator
+
+# Gnome Keyring
+exec gnome-keyring-daemon --daemonize --start --components=gpg,pkcs11,secrets,ssh
+
+# Xdg Desktop Portal
+# exec /usr/libexec/xdg-desktop-portal
+
+# for Touchpad gestures - laptop
+# exec libinput-gestures-setup start
+
+# Wlsunset - night colors - install this application
+# exec ~/.config/sway/scripts/light.sh
+
+# install wlr-randr for virtual machines
+# wlr-randr --output Virtual-1 --mode 1920x1080
+
+# Clipman wl-paste
+# exec clipman restore
+# exec wl-paste -t text --watch clipman store

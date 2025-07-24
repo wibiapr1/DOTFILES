@@ -1,0 +1,359 @@
+/* =============================================================================
+ *
+ * Waybar configuration
+ *
+ * Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
+ *
+ * =========================================================================== */
+
+/* -----------------------------------------------------------------------------
+ * Keyframes
+ * -------------------------------------------------------------------------- */
+
+@import "dracula.css";
+
+/*
+Polar Night
+nord0  #2e3440
+nord1  #3b4252
+nord2  #434c5e
+nord3  #4c566a
+Snow Storm
+nord4  #d8dee9
+nord5  #e5e9f0
+nord6  #eceff4
+Frost
+nord7  #8fbcbb
+nord8  #88c0d0
+nord9  #81a1c1
+nord10 #5e81ac
+Aurora
+nord11 #bf616a
+nord12 #d08770
+nord13 #ebcb8b
+nord14 #a3be8c
+nord15 #b48ead
+*/
+
+/* -----------------------------------------------------------------------------
+ * Base styles
+ * -------------------------------------------------------------------------- */
+
+/* Reset all styles */
+
+* {
+    color: @purple;
+    border: 0;
+    padding: 0 0;
+    font-family: JetBrains Mono;
+    font-size: 24px;
+    font-weight: bold;
+    /* padding-bottom:4px;
+    padding-top: 4px; */
+}
+
+window#waybar {
+    border: 0px solid rgba(0, 0, 0, 0);
+    /* border-radius: 10px; */
+    /* background:#2d2a2e; */
+    /* background-color: rgba(36, 39, 58, 0.85); */
+    background-color: rgba(0, 0, 0, 0);
+    /* background-color: shade(#1e1e2e, 0.95); */
+}
+
+#workspaces button {
+    color: @background;
+    border-radius: 50%;
+    margin: 0px 0px;
+    padding: 4px 6px 4px 6px;
+    margin: 0px 8px 0px 8px;
+}
+
+#workspaces button:hover {
+    color: @pink;
+    /* border-radius: 20px; */
+    box-shadow: none;
+    /* Remove predefined box-shadow */
+    text-shadow: none;
+    /* Remove predefined text-shadow */
+    border: 0px;
+    background: none;
+}
+
+#workspaces button:hover * {
+    color: @purple;
+}
+
+#workspaces button.persistent:hover {
+    color: @purple;
+    /* border-radius: 20px; */
+    box-shadow: none;
+    /* Remove predefined box-shadow */
+    text-shadow: none;
+    /* Remove predefined text-shadow */
+    border: 0px;
+    background: none;
+}
+
+#workspaces button.persistent:hover * {
+    color: @purple;
+}
+
+#workspaces * {
+    color: @maroon;
+}
+
+#workspaces {
+    border-style: solid;
+    background-color: @background;
+    opacity: 1;
+    border-radius: 10px;
+    margin: 8px 8px 8px 8px;
+}
+
+#workspaces button.active {
+    color: @pink;
+    border-radius: 20px;
+    /* background-color: @flamingo; */
+}
+
+#workspaces button.active * {
+    color: @pink;
+}
+
+#workspaces button.default {
+    color: @pink;
+    border-radius: 20px;
+    /* background-color: @flamingo; */
+}
+
+#workspaces button.default * {
+    color: @pink;
+}
+
+#workspaces button.persistent {
+    color: @maroon;
+    border-radius: 20px;
+    /* background-color: @flamingo; */
+}
+
+#workspaces button.persistent * {
+    color: @maroon;
+}
+
+#workspaces button.empty {
+    color: @foreground;
+    border-radius: 20px;
+    /* background-color: @flamingo; */
+}
+
+#workspaces button.empty * {
+    color: @foreground;
+}
+
+#workspaces button.visible {
+    color: @pink;
+    border-radius: 20px;
+    /* background-color: @flamingo; */
+}
+
+#workspaces button.visible * {
+    color: @pink;
+}
+
+#workspaces button.special {
+    color: @orange;
+    border-radius: 20px;
+    /* background-color: @flamingo; */
+}
+
+#workspaces button.special * {
+    color: @orange;
+}
+
+#workspaces button.urgent {
+    color: @red;
+    border-radius: 20px;
+    /* background-color: @flamingo; */
+}
+
+#workspaces button.urgent * {
+    color: @red;
+}
+
+#mode {
+    color: @yellow;
+}
+
+#clock,
+#custom-swap,
+#custom-changewaybar,
+#custom-cava-internal,
+#battery,
+#cpu,
+#memory,
+#idle_inhibitor,
+#temperature,
+#custom-keyboard-layout,
+#language,
+#backlight,
+#network,
+#pulseaudio,
+#mode,
+#tray,
+#custom-power,
+#custom-pacman,
+#custom-launcher,
+#mpd {
+    margin: 0px 0px;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    padding: 2px 3px 2px 3px;
+    border-style: solid;
+    background-color: shade(@background, 1);
+    opacity: 1;
+    margin: 8px 8px 8px 8px;
+}
+
+/* -----------------------------------------------------------------------------
+ * Module styles
+ * -------------------------------------------------------------------------- */
+#mpd {
+    border-radius: 10px;
+    color: @purple;
+    margin-left: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#mpd.2 {
+    border-radius: 10px 0px 0px 10px;
+    margin: 8px 0px 8px 6px;
+    padding: 4px 12px 4px 10px;
+}
+
+#mpd.3 {
+    border-radius: 0px 0px 0px 0px;
+    margin: 8px 0px 8px 0px;
+    padding: 4px;
+}
+
+#mpd.4 {
+    border-radius: 0px 10px 10px 0px;
+    margin: 8px 0px 8px 0px;
+    padding: 4px 10px 4px 14px;
+}
+
+#mpd.2,
+#mpd.3,
+#mpd.4 {
+    background-color: @background;
+    font-size: 14px;
+}
+
+#clock {
+    color: @cyan;
+    border-radius: 10px;
+    margin: 8px 10px;
+}
+
+#cpu {
+    color: @purple;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#cpu #cpu-icon {
+    color: @purple;
+}
+
+#memory {
+    color: @cyan;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#network.disabled {
+    color: @red;
+}
+
+#network {
+    color: @green;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+#network.disconnected {
+    color: @red;
+}
+
+#pulseaudio {
+    color: @pink;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#pulseaudio.muted {
+    color: @red;
+}
+
+#temperature {
+    color: @green;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#temperature.critical {
+    color: @red;
+}
+
+#idle_inhibitor {
+    background-color: @yellow;
+    color: @background;
+}
+
+#tray {
+    /* background-color: @base; */
+    margin: 8px 10px;
+    border-radius: 10px;
+}
+
+#custom-launcher {
+    /* background-image: url("/home/lightcrimson/.config/icons/svg/arch.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;  */
+    background-color: rgba(0, 0, 0, 0);
+    color: @purple;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+}
+
+#custom-power {
+    background-color: rgba(0, 0, 0, 0);
+    color: @red;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    padding: 5px 5px;
+}
+
+#window {
+    border-style: hidden;
+    margin-left: 10px;
+    /* margin-top:1px;  
+    padding: 8px 1rem; */
+    margin-right: 10px;
+    color: @purple;
+}
+
+#mode {
+    margin-bottom: 3px;
+}

@@ -1,0 +1,46 @@
+/*
+Dracula Color Scheme
+*/
+
+@define-color highlight #bd93f9;
+@define-color base1  #282a36;
+@define-color base2  #282a36;
+@define-color base3  #44475a;
+
+*{
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: medium;
+}
+
+#window {
+    border: 3px solid @highlight;
+    margin: 15px;
+}
+
+#inner-box {
+    background-color: @base2;
+}
+
+#outer-box {
+    margin: 5px;
+    background-color: @base2;
+    margin-top: -30px;
+}
+
+#text {
+    padding: 5px;
+    color: #F2F2F2;
+}
+
+#entry:nth-child(even) {
+    background-color: @base1;
+}
+
+#entry {
+    background-color: @base3;
+}
+
+#entry:selected {
+    background-color: @highlight;
+}

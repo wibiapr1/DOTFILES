@@ -1,0 +1,4 @@
+system:
+  disable_compositor: true
+  prefix_command: AMD_VULKAN_ICD=RADV
+  terminal_app: /usr/bin/alacritty

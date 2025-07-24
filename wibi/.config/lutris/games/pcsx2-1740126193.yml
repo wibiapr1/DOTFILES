@@ -1,0 +1,6 @@
+game:
+  exe: /home/wibi/Games/Emulators/PCSX2/pcsx2-v2.3.167-linux-appimage-x64-Qt.AppImage
+  working_dir: /home/wibi/Games/Emulators/PCSX2
+linux: {}
+system:
+  disable_runtime: true

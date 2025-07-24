@@ -1,0 +1,11 @@
+#!/bin/bash
+
+CONFIG="$HOME/.config/sway/wofi/config"
+STYLE="$HOME/.config/sway/wofi/style.css"
+COLORS="$HOME/.config/sway/wofi/colors"
+
+if [[ ! $(pidof wofi) ]]; then
+	wofi --show drun --prompt 'Search...' --conf ${CONFIG} --style ${STYLE} --color ${COLORS}
+else
+	pkill wofi
+fi

@@ -1,0 +1,7 @@
+game:
+  exe: /home/wibi/Games/Emulators/Ryujinx/ryujinx-1.2.82-x64.AppImage
+  working_dir: /home/wibi/Games/Emulators/Ryujinx
+linux: {}
+system:
+  disable_runtime: true
+  mangohud: false

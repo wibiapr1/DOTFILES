@@ -1,0 +1,35 @@
+game:
+  exe: drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EALauncher.exe
+  prefix: /home/wibi/Games/ea-app
+game_slug: ea-app
+name: EA App
+requires: null
+script:
+  files:
+  - setup: https://origin-a.akamaihd.net/EA-Desktop-Client-Download/installer-releases/EAappInstaller.exe
+  game:
+    exe: drive_c/Program Files/Electronic Arts/EA Desktop/EA Desktop/EALauncher.exe
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      arch: win64
+      name: create_prefix
+      prefix: $GAMEDIR
+  - task:
+      app: corefonts
+      name: winetricks
+      prefix: $GAMEDIR
+  - task:
+      app: win10
+      name: winetricks
+      prefix: $GAMEDIR
+  - task:
+      args: EAX_LAUNCH_CLIENT=0
+      description: Installing EA app
+      executable: setup
+      name: wineexec
+      return_code: 768
+slug: ea-app-standard
+variables: {}
+version: Standard
+year: 2022

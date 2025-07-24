@@ -1,0 +1,637 @@
+[0304.29] Log: Log file open, 02/18/22 03:23:26
+[0304.29] Log: FLevelSaver: 393216 bytes
+[0304.29] Log: m_ObjectDictionarySaver: 131072 bytes
+[0304.29] Log: m_ObjectDictionary: 395520 bytes for 11319 items
+[0304.29] Log: m_SavedObjects: 305344 bytes for 9538 items
+[0638.71] Log: FLevelSaver: 393216 bytes
+[0638.71] Log: m_ObjectDictionarySaver: 131072 bytes
+[0638.71] Log: m_ObjectDictionary: 395520 bytes for 11299 items
+[0638.71] Log: m_SavedObjects: 305344 bytes for 9518 items
+[0745.32] Log: FLevelSaver: 393216 bytes
+[0745.32] Log: m_ObjectDictionarySaver: 131072 bytes
+[0745.32] Log: m_ObjectDictionary: 395520 bytes for 11305 items
+[0745.32] Log: m_SavedObjects: 305344 bytes for 9524 items
+[1034.08] Log: FLevelSaver: 393216 bytes
+[1034.08] Log: m_ObjectDictionarySaver: 131072 bytes
+[1034.08] Log: m_ObjectDictionary: 395520 bytes for 9280 items
+[1034.08] Log: m_SavedObjects: 288960 bytes for 7598 items
+[1062.11] Log: FLevelSaver: 393216 bytes
+[1062.11] Log: m_ObjectDictionarySaver: 131072 bytes
+[1062.11] Log: m_ObjectDictionary: 395520 bytes for 9120 items
+[1062.11] Log: m_SavedObjects: 288960 bytes for 7440 items
+[1255.18] Log: FLevelSaver: 393216 bytes
+[1255.18] Log: m_ObjectDictionarySaver: 131072 bytes
+[1255.18] Log: m_ObjectDictionary: 395520 bytes for 8313 items
+[1255.18] Log: m_SavedObjects: 288960 bytes for 6541 items
+[1309.17] Log: FLevelSaver: 393216 bytes
+[1309.17] Log: m_ObjectDictionarySaver: 131072 bytes
+[1309.17] Log: m_ObjectDictionary: 379136 bytes for 8023 items
+[1309.17] Log: m_SavedObjects: 288960 bytes for 6309 items
+[1318.46] Log: FLevelSaver: 393216 bytes
+[1318.46] Log: m_ObjectDictionarySaver: 131072 bytes
+[1318.46] Log: m_ObjectDictionary: 379136 bytes for 8029 items
+[1318.46] Log: m_SavedObjects: 288960 bytes for 6306 items
+[1505.74] Log: FLevelSaver: 393216 bytes
+[1505.74] Log: m_ObjectDictionarySaver: 131072 bytes
+[1505.74] Log: m_ObjectDictionary: 395520 bytes for 8258 items
+[1505.74] Log: m_SavedObjects: 288960 bytes for 6527 items
+[1619.33] Log: FLevelSaver: 393216 bytes
+[1619.33] Log: m_ObjectDictionarySaver: 131072 bytes
+[1619.33] Log: m_ObjectDictionary: 395520 bytes for 8494 items
+[1619.33] Log: m_SavedObjects: 288960 bytes for 6765 items
+[1643.19] Log: FLevelSaver: 393216 bytes
+[1643.19] Log: m_ObjectDictionarySaver: 131072 bytes
+[1643.19] Log: m_ObjectDictionary: 395520 bytes for 8497 items
+[1643.19] Log: m_SavedObjects: 288960 bytes for 6765 items
+[1720.03] Log: FLevelSaver: 393216 bytes
+[1720.03] Log: m_ObjectDictionarySaver: 131072 bytes
+[1720.03] Log: m_ObjectDictionary: 395520 bytes for 8501 items
+[1720.03] Log: m_SavedObjects: 288960 bytes for 6764 items
+[1772.71] Log: FLevelSaver: 393216 bytes
+[1772.71] Log: m_ObjectDictionarySaver: 131072 bytes
+[1772.71] Log: m_ObjectDictionary: 395520 bytes for 8496 items
+[1772.71] Log: m_SavedObjects: 288960 bytes for 6761 items
+[1873.58] Log: FLevelSaver: 393216 bytes
+[1873.58] Log: m_ObjectDictionarySaver: 131072 bytes
+[1873.58] Log: m_ObjectDictionary: 395520 bytes for 8496 items
+[1873.58] Log: m_SavedObjects: 288960 bytes for 6757 items
+[1881.16] Log: FLevelSaver: 393216 bytes
+[1881.16] Log: m_ObjectDictionarySaver: 131072 bytes
+[1881.16] Log: m_ObjectDictionary: 395520 bytes for 9029 items
+[1881.16] Log: m_SavedObjects: 288960 bytes for 7266 items
+[1891.23] Log: FLevelSaver: 393216 bytes
+[1891.23] Log: m_ObjectDictionarySaver: 131072 bytes
+[1891.23] Log: m_ObjectDictionary: 395520 bytes for 9027 items
+[1891.23] Log: m_SavedObjects: 288960 bytes for 7265 items
+[1914.56] Log: FLevelSaver: 393216 bytes
+[1914.56] Log: m_ObjectDictionarySaver: 131072 bytes
+[1914.56] Log: m_ObjectDictionary: 395520 bytes for 9033 items
+[1914.56] Log: m_SavedObjects: 288960 bytes for 7271 items
+[1935.11] Log: FLevelSaver: 393216 bytes
+[1935.11] Log: m_ObjectDictionarySaver: 131072 bytes
+[1935.11] Log: m_ObjectDictionary: 395520 bytes for 9031 items
+[1935.11] Log: m_SavedObjects: 288960 bytes for 7269 items
+[1972.93] Log: FLevelSaver: 393216 bytes
+[1972.93] Log: m_ObjectDictionarySaver: 131072 bytes
+[1972.93] Log: m_ObjectDictionary: 395520 bytes for 9307 items
+[1972.93] Log: m_SavedObjects: 288960 bytes for 7524 items
+[2040.55] Log: FLevelSaver: 393216 bytes
+[2040.55] Log: m_ObjectDictionarySaver: 131072 bytes
+[2040.55] Log: m_ObjectDictionary: 395520 bytes for 9844 items
+[2040.55] Log: m_SavedObjects: 288960 bytes for 8044 items
+[2080.43] Log: FLevelSaver: 393216 bytes
+[2080.43] Log: m_ObjectDictionarySaver: 131072 bytes
+[2080.43] Log: m_ObjectDictionary: 395520 bytes for 9579 items
+[2080.43] Log: m_SavedObjects: 288960 bytes for 7789 items
+[2111.14] Log: FLevelSaver: 393216 bytes
+[2111.14] Log: m_ObjectDictionarySaver: 131072 bytes
+[2111.14] Log: m_ObjectDictionary: 395520 bytes for 9331 items
+[2111.14] Log: m_SavedObjects: 288960 bytes for 7543 items
+[2148.93] Log: FLevelSaver: 393216 bytes
+[2148.93] Log: m_ObjectDictionarySaver: 131072 bytes
+[2148.93] Log: m_ObjectDictionary: 395520 bytes for 9324 items
+[2148.93] Log: m_SavedObjects: 288960 bytes for 7535 items
+[2219.69] Log: FLevelSaver: 393216 bytes
+[2219.69] Log: m_ObjectDictionarySaver: 131072 bytes
+[2219.69] Log: m_ObjectDictionary: 395520 bytes for 9062 items
+[2219.69] Log: m_SavedObjects: 288960 bytes for 7282 items
+[2227.56] Log: FLevelSaver: 393216 bytes
+[2227.56] Log: m_ObjectDictionarySaver: 131072 bytes
+[2227.56] Log: m_ObjectDictionary: 395520 bytes for 9596 items
+[2227.56] Log: m_SavedObjects: 288960 bytes for 7798 items
+[2254.88] Log: FLevelSaver: 393216 bytes
+[2254.88] Log: m_ObjectDictionarySaver: 131072 bytes
+[2254.88] Log: m_ObjectDictionary: 395520 bytes for 9602 items
+[2254.88] Log: m_SavedObjects: 288960 bytes for 7800 items
+[2282.40] Log: FLevelSaver: 393216 bytes
+[2282.40] Log: m_ObjectDictionarySaver: 131072 bytes
+[2282.40] Log: m_ObjectDictionary: 395520 bytes for 9340 items
+[2282.40] Log: m_SavedObjects: 288960 bytes for 7552 items
+[2396.80] Log: FLevelSaver: 393216 bytes
+[2396.80] Log: m_ObjectDictionarySaver: 131072 bytes
+[2396.80] Log: m_ObjectDictionary: 395520 bytes for 9072 items
+[2396.80] Log: m_SavedObjects: 288960 bytes for 7291 items
+[2413.62] Log: FLevelSaver: 393216 bytes
+[2413.62] Log: m_ObjectDictionarySaver: 131072 bytes
+[2413.62] Log: m_ObjectDictionary: 395520 bytes for 10390 items
+[2413.62] Log: m_SavedObjects: 305344 bytes for 8521 items
+[2437.77] Log: FLevelSaver: 393216 bytes
+[2437.77] Log: m_ObjectDictionarySaver: 131072 bytes
+[2437.77] Log: m_ObjectDictionary: 395520 bytes for 10392 items
+[2437.77] Log: m_SavedObjects: 305344 bytes for 8523 items
+[2448.89] Log: FLevelSaver: 393216 bytes
+[2448.89] Log: m_ObjectDictionarySaver: 131072 bytes
+[2448.89] Log: m_ObjectDictionary: 395520 bytes for 10391 items
+[2448.89] Log: m_SavedObjects: 305344 bytes for 8524 items
+[2494.12] Log: FLevelSaver: 393216 bytes
+[2494.12] Log: m_ObjectDictionarySaver: 131072 bytes
+[2494.12] Log: m_ObjectDictionary: 395520 bytes for 10378 items
+[2494.12] Log: m_SavedObjects: 305344 bytes for 8516 items
+[2502.31] Log: FLevelSaver: 393216 bytes
+[2502.31] Log: m_ObjectDictionarySaver: 131072 bytes
+[2502.31] Log: m_ObjectDictionary: 379136 bytes for 4566 items
+[2502.31] Log: m_SavedObjects: 280768 bytes for 3529 items
+[2515.59] Log: FLevelSaver: 393216 bytes
+[2515.59] Log: m_ObjectDictionarySaver: 131072 bytes
+[2515.59] Log: m_ObjectDictionary: 379136 bytes for 5411 items
+[2515.59] Log: m_SavedObjects: 280768 bytes for 4069 items
+[4485.42] Log: FLevelSaver: 393216 bytes
+[4485.42] Log: m_ObjectDictionarySaver: 131072 bytes
+[4485.42] Log: m_ObjectDictionary: 379136 bytes for 5904 items
+[4485.42] Log: m_SavedObjects: 288960 bytes for 4526 items
+[4565.31] Log: FLevelSaver: 393216 bytes
+[4565.31] Log: m_ObjectDictionarySaver: 131072 bytes
+[4565.31] Log: m_ObjectDictionary: 379136 bytes for 5412 items
+[4565.31] Log: m_SavedObjects: 280768 bytes for 4067 items
+[4566.63] Log: FLevelSaver: 393216 bytes
+[4566.63] Log: m_ObjectDictionarySaver: 131072 bytes
+[4566.63] Log: m_ObjectDictionary: 379136 bytes for 5412 items
+[4566.63] Log: m_SavedObjects: 280768 bytes for 4067 items
+[4817.30] Log: FLevelSaver: 393216 bytes
+[4817.30] Log: m_ObjectDictionarySaver: 131072 bytes
+[4817.30] Log: m_ObjectDictionary: 379136 bytes for 5396 items
+[4817.30] Log: m_SavedObjects: 280768 bytes for 4059 items
+[4908.91] Log: FLevelSaver: 393216 bytes
+[4908.91] Log: m_ObjectDictionarySaver: 131072 bytes
+[4908.91] Log: m_ObjectDictionary: 379136 bytes for 5393 items
+[4908.91] Log: m_SavedObjects: 280768 bytes for 4056 items
+[5091.00] Log: FLevelSaver: 393216 bytes
+[5091.00] Log: m_ObjectDictionarySaver: 131072 bytes
+[5091.00] Log: m_ObjectDictionary: 379136 bytes for 5422 items
+[5091.00] Log: m_SavedObjects: 280768 bytes for 4064 items
+[5143.48] Log: FLevelSaver: 393216 bytes
+[5143.48] Log: m_ObjectDictionarySaver: 131072 bytes
+[5143.48] Log: m_ObjectDictionary: 379136 bytes for 5416 items
+[5143.48] Log: m_SavedObjects: 280768 bytes for 4059 items
+[5239.62] Log: FLevelSaver: 393216 bytes
+[5239.62] Log: m_ObjectDictionarySaver: 131072 bytes
+[5239.62] Log: m_ObjectDictionary: 379136 bytes for 5403 items
+[5239.62] Log: m_SavedObjects: 280768 bytes for 4046 items
+[5257.20] Log: FLevelSaver: 393216 bytes
+[5257.20] Log: m_ObjectDictionarySaver: 131072 bytes
+[5257.20] Log: m_ObjectDictionary: 379136 bytes for 5403 items
+[5257.20] Log: m_SavedObjects: 280768 bytes for 4046 items
+[5345.78] Log: FLevelSaver: 393216 bytes
+[5345.78] Log: m_ObjectDictionarySaver: 131072 bytes
+[5345.78] Log: m_ObjectDictionary: 379136 bytes for 5397 items
+[5345.78] Log: m_SavedObjects: 280768 bytes for 4040 items
+[5391.80] Log: FLevelSaver: 393216 bytes
+[5391.80] Log: m_ObjectDictionarySaver: 131072 bytes
+[5391.80] Log: m_ObjectDictionary: 379136 bytes for 5396 items
+[5391.80] Log: m_SavedObjects: 280768 bytes for 4039 items
+[5429.13] Log: FLevelSaver: 393216 bytes
+[5429.13] Log: m_ObjectDictionarySaver: 131072 bytes
+[5429.13] Log: m_ObjectDictionary: 379136 bytes for 5392 items
+[5429.13] Log: m_SavedObjects: 280768 bytes for 4035 items
+[5458.59] Log: FLevelSaver: 393216 bytes
+[5458.59] Log: m_ObjectDictionarySaver: 131072 bytes
+[5458.59] Log: m_ObjectDictionary: 379136 bytes for 5389 items
+[5458.59] Log: m_SavedObjects: 280768 bytes for 4034 items
+[5471.10] Log: FLevelSaver: 393216 bytes
+[5471.10] Log: m_ObjectDictionarySaver: 131072 bytes
+[5471.10] Log: m_ObjectDictionary: 379136 bytes for 5388 items
+[5471.10] Log: m_SavedObjects: 280768 bytes for 4033 items
+[5522.67] Log: FLevelSaver: 393216 bytes
+[5522.67] Log: m_ObjectDictionarySaver: 131072 bytes
+[5522.67] Log: m_ObjectDictionary: 379136 bytes for 5388 items
+[5522.67] Log: m_SavedObjects: 280768 bytes for 4032 items
+[5569.12] Log: FLevelSaver: 393216 bytes
+[5569.12] Log: m_ObjectDictionarySaver: 131072 bytes
+[5569.12] Log: m_ObjectDictionary: 379136 bytes for 5384 items
+[5569.12] Log: m_SavedObjects: 280768 bytes for 4031 items
+[5587.50] Log: FLevelSaver: 393216 bytes
+[5587.50] Log: m_ObjectDictionarySaver: 131072 bytes
+[5587.50] Log: m_ObjectDictionary: 379136 bytes for 5384 items
+[5587.50] Log: m_SavedObjects: 280768 bytes for 4031 items
+[5720.44] Log: FLevelSaver: 393216 bytes
+[5720.44] Log: m_ObjectDictionarySaver: 131072 bytes
+[5720.44] Log: m_ObjectDictionary: 379136 bytes for 6434 items
+[5720.44] Log: m_SavedObjects: 288960 bytes for 5020 items
+[5747.72] Log: FLevelSaver: 393216 bytes
+[5747.72] Log: m_ObjectDictionarySaver: 131072 bytes
+[5747.72] Log: m_ObjectDictionary: 379136 bytes for 6435 items
+[5747.72] Log: m_SavedObjects: 288960 bytes for 5021 items
+[5751.30] Log: FLevelSaver: 393216 bytes
+[5751.30] Log: m_ObjectDictionarySaver: 131072 bytes
+[5751.30] Log: m_ObjectDictionary: 379136 bytes for 6434 items
+[5751.30] Log: m_SavedObjects: 288960 bytes for 5020 items
+[5797.89] Log: FLevelSaver: 393216 bytes
+[5797.89] Log: m_ObjectDictionarySaver: 131072 bytes
+[5797.89] Log: m_ObjectDictionary: 379136 bytes for 6433 items
+[5797.89] Log: m_SavedObjects: 288960 bytes for 5015 items
+[5844.31] Log: FLevelSaver: 393216 bytes
+[5844.31] Log: m_ObjectDictionarySaver: 131072 bytes
+[5844.31] Log: m_ObjectDictionary: 379136 bytes for 6436 items
+[5844.31] Log: m_SavedObjects: 288960 bytes for 5016 items
+[5907.23] Log: FLevelSaver: 393216 bytes
+[5907.23] Log: m_ObjectDictionarySaver: 131072 bytes
+[5907.23] Log: m_ObjectDictionary: 379136 bytes for 6432 items
+[5907.23] Log: m_SavedObjects: 288960 bytes for 5009 items
+[5947.96] Log: FLevelSaver: 393216 bytes
+[5947.96] Log: m_ObjectDictionarySaver: 131072 bytes
+[5947.96] Log: m_ObjectDictionary: 379136 bytes for 6432 items
+[5947.96] Log: m_SavedObjects: 288960 bytes for 5010 items
+[5983.14] Log: FLevelSaver: 393216 bytes
+[5983.14] Log: m_ObjectDictionarySaver: 131072 bytes
+[5983.14] Log: m_ObjectDictionary: 379136 bytes for 6437 items
+[5983.14] Log: m_SavedObjects: 288960 bytes for 5013 items
+[6030.71] Log: FLevelSaver: 393216 bytes
+[6030.71] Log: m_ObjectDictionarySaver: 131072 bytes
+[6030.71] Log: m_ObjectDictionary: 379136 bytes for 6429 items
+[6030.71] Log: m_SavedObjects: 288960 bytes for 5005 items
+[6138.91] Log: FLevelSaver: 393216 bytes
+[6138.91] Log: m_ObjectDictionarySaver: 131072 bytes
+[6138.91] Log: m_ObjectDictionary: 379136 bytes for 6419 items
+[6138.91] Log: m_SavedObjects: 288960 bytes for 4999 items
+[6192.36] Log: FLevelSaver: 393216 bytes
+[6192.36] Log: m_ObjectDictionarySaver: 131072 bytes
+[6192.36] Log: m_ObjectDictionary: 379136 bytes for 6411 items
+[6192.36] Log: m_SavedObjects: 288960 bytes for 4993 items
+[6264.71] Log: FLevelSaver: 393216 bytes
+[6264.71] Log: m_ObjectDictionarySaver: 131072 bytes
+[6264.71] Log: m_ObjectDictionary: 379136 bytes for 6407 items
+[6264.71] Log: m_SavedObjects: 288960 bytes for 4990 items
+[6290.81] Log: FLevelSaver: 393216 bytes
+[6290.81] Log: m_ObjectDictionarySaver: 131072 bytes
+[6290.81] Log: m_ObjectDictionary: 379136 bytes for 6407 items
+[6290.81] Log: m_SavedObjects: 288960 bytes for 4990 items
+[6318.94] Log: FLevelSaver: 393216 bytes
+[6318.94] Log: m_ObjectDictionarySaver: 131072 bytes
+[6318.94] Log: m_ObjectDictionary: 379136 bytes for 6407 items
+[6318.94] Log: m_SavedObjects: 288960 bytes for 4990 items
+[6372.34] Log: FLevelSaver: 393216 bytes
+[6372.34] Log: m_ObjectDictionarySaver: 131072 bytes
+[6372.34] Log: m_ObjectDictionary: 379136 bytes for 6407 items
+[6372.34] Log: m_SavedObjects: 288960 bytes for 4990 items
+[6475.33] Log: FLevelSaver: 393216 bytes
+[6475.33] Log: m_ObjectDictionarySaver: 131072 bytes
+[6475.33] Log: m_ObjectDictionary: 379136 bytes for 6404 items
+[6475.33] Log: m_SavedObjects: 288960 bytes for 4986 items
+[6538.51] Log: FLevelSaver: 393216 bytes
+[6538.51] Log: m_ObjectDictionarySaver: 131072 bytes
+[6538.51] Log: m_ObjectDictionary: 379136 bytes for 6404 items
+[6538.51] Log: m_SavedObjects: 288960 bytes for 4986 items
+[6544.39] Log: FLevelSaver: 393216 bytes
+[6544.39] Log: m_ObjectDictionarySaver: 131072 bytes
+[6544.39] Log: m_ObjectDictionary: 379136 bytes for 6405 items
+[6544.39] Log: m_SavedObjects: 288960 bytes for 4986 items
+[6558.60] Log: FLevelSaver: 393216 bytes
+[6558.60] Log: m_ObjectDictionarySaver: 131072 bytes
+[6558.60] Log: m_ObjectDictionary: 379136 bytes for 6569 items
+[6558.60] Log: m_SavedObjects: 288960 bytes for 5121 items
+[6595.96] Log: FLevelSaver: 393216 bytes
+[6595.96] Log: m_ObjectDictionarySaver: 131072 bytes
+[6595.96] Log: m_ObjectDictionary: 379136 bytes for 6566 items
+[6595.96] Log: m_SavedObjects: 288960 bytes for 5118 items
+[6636.01] Log: FLevelSaver: 393216 bytes
+[6636.01] Log: m_ObjectDictionarySaver: 131072 bytes
+[6636.01] Log: m_ObjectDictionary: 379136 bytes for 6567 items
+[6636.01] Log: m_SavedObjects: 288960 bytes for 5118 items
+[6783.70] Log: FLevelSaver: 393216 bytes
+[6783.70] Log: m_ObjectDictionarySaver: 131072 bytes
+[6783.70] Log: m_ObjectDictionary: 379136 bytes for 6566 items
+[6783.70] Log: m_SavedObjects: 288960 bytes for 5117 items
+[6842.98] Log: FLevelSaver: 393216 bytes
+[6842.98] Log: m_ObjectDictionarySaver: 131072 bytes
+[6842.98] Log: m_ObjectDictionary: 379136 bytes for 6557 items
+[6842.98] Log: m_SavedObjects: 288960 bytes for 5112 items
+[6957.12] Log: FLevelSaver: 393216 bytes
+[6957.12] Log: m_ObjectDictionarySaver: 131072 bytes
+[6957.12] Log: m_ObjectDictionary: 379136 bytes for 6880 items
+[6957.12] Log: m_SavedObjects: 288960 bytes for 5331 items
+[7018.06] Log: FLevelSaver: 393216 bytes
+[7018.06] Log: m_ObjectDictionarySaver: 131072 bytes
+[7018.06] Log: m_ObjectDictionary: 379136 bytes for 6893 items
+[7018.06] Log: m_SavedObjects: 288960 bytes for 5342 items
+[7136.66] Log: FLevelSaver: 393216 bytes
+[7136.66] Log: m_ObjectDictionarySaver: 131072 bytes
+[7136.66] Log: m_ObjectDictionary: 379136 bytes for 6893 items
+[7136.66] Log: m_SavedObjects: 288960 bytes for 5342 items
+[7171.51] Log: FLevelSaver: 393216 bytes
+[7171.51] Log: m_ObjectDictionarySaver: 131072 bytes
+[7171.51] Log: m_ObjectDictionary: 379136 bytes for 6893 items
+[7171.51] Log: m_SavedObjects: 288960 bytes for 5341 items
+[7202.50] Log: FLevelSaver: 393216 bytes
+[7202.50] Log: m_ObjectDictionarySaver: 131072 bytes
+[7202.50] Log: m_ObjectDictionary: 379136 bytes for 6893 items
+[7202.50] Log: m_SavedObjects: 288960 bytes for 5341 items
+[7295.28] Log: FLevelSaver: 393216 bytes
+[7295.28] Log: m_ObjectDictionarySaver: 131072 bytes
+[7295.28] Log: m_ObjectDictionary: 379136 bytes for 6891 items
+[7295.28] Log: m_SavedObjects: 288960 bytes for 5339 items
+[7445.71] Log: FLevelSaver: 393216 bytes
+[7445.71] Log: m_ObjectDictionarySaver: 131072 bytes
+[7445.71] Log: m_ObjectDictionary: 379136 bytes for 6895 items
+[7445.71] Log: m_SavedObjects: 288960 bytes for 5341 items
+[7667.23] Log: FLevelSaver: 393216 bytes
+[7667.23] Log: m_ObjectDictionarySaver: 131072 bytes
+[7667.23] Log: m_ObjectDictionary: 379136 bytes for 6896 items
+[7667.23] Log: m_SavedObjects: 288960 bytes for 5340 items
+[7768.01] Log: FLevelSaver: 393216 bytes
+[7768.01] Log: m_ObjectDictionarySaver: 131072 bytes
+[7768.01] Log: m_ObjectDictionary: 379136 bytes for 6897 items
+[7768.01] Log: m_SavedObjects: 288960 bytes for 5340 items
+[7854.31] Log: FLevelSaver: 393216 bytes
+[7854.31] Log: m_ObjectDictionarySaver: 131072 bytes
+[7854.31] Log: m_ObjectDictionary: 379136 bytes for 6895 items
+[7854.31] Log: m_SavedObjects: 288960 bytes for 5338 items
+[8000.55] Log: FLevelSaver: 393216 bytes
+[8000.55] Log: m_ObjectDictionarySaver: 131072 bytes
+[8000.55] Log: m_ObjectDictionary: 379136 bytes for 6900 items
+[8000.55] Log: m_SavedObjects: 288960 bytes for 5342 items
+[8050.23] Log: FLevelSaver: 393216 bytes
+[8050.23] Log: m_ObjectDictionarySaver: 131072 bytes
+[8050.23] Log: m_ObjectDictionary: 379136 bytes for 6896 items
+[8050.23] Log: m_SavedObjects: 288960 bytes for 5338 items
+[8099.13] Log: FLevelSaver: 393216 bytes
+[8099.13] Log: m_ObjectDictionarySaver: 131072 bytes
+[8099.13] Log: m_ObjectDictionary: 379136 bytes for 6895 items
+[8099.13] Log: m_SavedObjects: 288960 bytes for 5338 items
+[8238.85] Log: FLevelSaver: 393216 bytes
+[8238.85] Log: m_ObjectDictionarySaver: 131072 bytes
+[8238.85] Log: m_ObjectDictionary: 379136 bytes for 6893 items
+[8238.85] Log: m_SavedObjects: 288960 bytes for 5336 items
+[8244.67] Log: FLevelSaver: 393216 bytes
+[8244.67] Log: m_ObjectDictionarySaver: 131072 bytes
+[8244.67] Log: m_ObjectDictionary: 379136 bytes for 6894 items
+[8244.67] Log: m_SavedObjects: 288960 bytes for 5336 items
+[8353.93] Log: FLevelSaver: 393216 bytes
+[8353.93] Log: m_ObjectDictionarySaver: 131072 bytes
+[8353.93] Log: m_ObjectDictionary: 379136 bytes for 6892 items
+[8353.93] Log: m_SavedObjects: 288960 bytes for 5335 items
+[8824.83] Log: FLevelSaver: 393216 bytes
+[8824.83] Log: m_ObjectDictionarySaver: 131072 bytes
+[8824.83] Log: m_ObjectDictionary: 379136 bytes for 6891 items
+[8824.83] Log: m_SavedObjects: 288960 bytes for 5331 items
+[8832.72] Log: FLevelSaver: 393216 bytes
+[8832.72] Log: m_ObjectDictionarySaver: 131072 bytes
+[8832.72] Log: m_ObjectDictionary: 379136 bytes for 6893 items
+[8832.72] Log: m_SavedObjects: 288960 bytes for 5333 items
+[8865.22] Log: FLevelSaver: 393216 bytes
+[8865.22] Log: m_ObjectDictionarySaver: 131072 bytes
+[8865.22] Log: m_ObjectDictionary: 379136 bytes for 6886 items
+[8865.22] Log: m_SavedObjects: 288960 bytes for 5324 items
+[8913.37] Log: FLevelSaver: 393216 bytes
+[8913.37] Log: m_ObjectDictionarySaver: 131072 bytes
+[8913.37] Log: m_ObjectDictionary: 379136 bytes for 6888 items
+[8913.37] Log: m_SavedObjects: 288960 bytes for 5323 items
+[8948.54] Log: FLevelSaver: 393216 bytes
+[8948.54] Log: m_ObjectDictionarySaver: 131072 bytes
+[8948.54] Log: m_ObjectDictionary: 379136 bytes for 6883 items
+[8948.54] Log: m_SavedObjects: 288960 bytes for 5322 items
+[9195.97] Log: FLevelSaver: 393216 bytes
+[9195.97] Log: m_ObjectDictionarySaver: 131072 bytes
+[9195.97] Log: m_ObjectDictionary: 379136 bytes for 6886 items
+[9195.97] Log: m_SavedObjects: 288960 bytes for 5317 items
+[9400.44] Log: FLevelSaver: 393216 bytes
+[9400.44] Log: m_ObjectDictionarySaver: 131072 bytes
+[9400.44] Log: m_ObjectDictionary: 379136 bytes for 6899 items
+[9400.44] Log: m_SavedObjects: 288960 bytes for 5324 items
+[9512.62] Log: FLevelSaver: 393216 bytes
+[9512.62] Log: m_ObjectDictionarySaver: 131072 bytes
+[9512.62] Log: m_ObjectDictionary: 379136 bytes for 6898 items
+[9512.62] Log: m_SavedObjects: 288960 bytes for 5324 items
+[9561.04] Log: FLevelSaver: 393216 bytes
+[9561.04] Log: m_ObjectDictionarySaver: 131072 bytes
+[9561.04] Log: m_ObjectDictionary: 379136 bytes for 6898 items
+[9561.04] Log: m_SavedObjects: 288960 bytes for 5324 items
+[9605.72] Log: FLevelSaver: 393216 bytes
+[9605.72] Log: m_ObjectDictionarySaver: 131072 bytes
+[9605.72] Log: m_ObjectDictionary: 379136 bytes for 6899 items
+[9605.72] Log: m_SavedObjects: 288960 bytes for 5324 items
+[9623.44] Log: FLevelSaver: 393216 bytes
+[9623.44] Log: m_ObjectDictionarySaver: 131072 bytes
+[9623.44] Log: m_ObjectDictionary: 379136 bytes for 6897 items
+[9623.44] Log: m_SavedObjects: 288960 bytes for 5324 items
+[9630.42] Log: FLevelSaver: 393216 bytes
+[9630.42] Log: m_ObjectDictionarySaver: 131072 bytes
+[9630.42] Log: m_ObjectDictionary: 379136 bytes for 6903 items
+[9630.42] Log: m_SavedObjects: 288960 bytes for 5328 items
+[9665.29] Log: FLevelSaver: 393216 bytes
+[9665.29] Log: m_ObjectDictionarySaver: 131072 bytes
+[9665.29] Log: m_ObjectDictionary: 379136 bytes for 6898 items
+[9665.29] Log: m_SavedObjects: 288960 bytes for 5323 items
+[9684.67] Log: FLevelSaver: 393216 bytes
+[9684.67] Log: m_ObjectDictionarySaver: 131072 bytes
+[9684.67] Log: m_ObjectDictionary: 379136 bytes for 6897 items
+[9684.67] Log: m_SavedObjects: 288960 bytes for 5323 items
+[9693.57] Log: FLevelSaver: 393216 bytes
+[9693.57] Log: m_ObjectDictionarySaver: 131072 bytes
+[9693.57] Log: m_ObjectDictionary: 379136 bytes for 6898 items
+[9693.57] Log: m_SavedObjects: 288960 bytes for 5323 items
+[9968.42] Log: FLevelSaver: 393216 bytes
+[9968.42] Log: m_ObjectDictionarySaver: 131072 bytes
+[9968.42] Log: m_ObjectDictionary: 379136 bytes for 6895 items
+[9968.42] Log: m_SavedObjects: 288960 bytes for 5321 items
+[9986.81] Log: FLevelSaver: 393216 bytes
+[9986.81] Log: m_ObjectDictionarySaver: 131072 bytes
+[9986.81] Log: m_ObjectDictionary: 379136 bytes for 6894 items
+[9986.81] Log: m_SavedObjects: 288960 bytes for 5320 items
+[10085.54] Log: FLevelSaver: 393216 bytes
+[10085.54] Log: m_ObjectDictionarySaver: 131072 bytes
+[10085.54] Log: m_ObjectDictionary: 379136 bytes for 6895 items
+[10085.54] Log: m_SavedObjects: 288960 bytes for 5319 items
+[10140.28] Log: FLevelSaver: 393216 bytes
+[10140.28] Log: m_ObjectDictionarySaver: 131072 bytes
+[10140.28] Log: m_ObjectDictionary: 379136 bytes for 6895 items
+[10140.28] Log: m_SavedObjects: 288960 bytes for 5319 items
+[10218.96] Log: FLevelSaver: 393216 bytes
+[10218.96] Log: m_ObjectDictionarySaver: 131072 bytes
+[10218.96] Log: m_ObjectDictionary: 379136 bytes for 6895 items
+[10218.96] Log: m_SavedObjects: 288960 bytes for 5319 items
+[10238.62] Log: FLevelSaver: 393216 bytes
+[10238.62] Log: m_ObjectDictionarySaver: 131072 bytes
+[10238.62] Log: m_ObjectDictionary: 379136 bytes for 6895 items
+[10238.62] Log: m_SavedObjects: 288960 bytes for 5318 items
+[10285.91] Log: FLevelSaver: 393216 bytes
+[10285.91] Log: m_ObjectDictionarySaver: 131072 bytes
+[10285.91] Log: m_ObjectDictionary: 379136 bytes for 6893 items
+[10285.91] Log: m_SavedObjects: 288960 bytes for 5318 items
+[10319.48] Log: FLevelSaver: 393216 bytes
+[10319.48] Log: m_ObjectDictionarySaver: 131072 bytes
+[10319.48] Log: m_ObjectDictionary: 379136 bytes for 6893 items
+[10319.48] Log: m_SavedObjects: 288960 bytes for 5318 items
+[10394.13] Log: FLevelSaver: 393216 bytes
+[10394.13] Log: m_ObjectDictionarySaver: 131072 bytes
+[10394.13] Log: m_ObjectDictionary: 379136 bytes for 6893 items
+[10394.13] Log: m_SavedObjects: 288960 bytes for 5316 items
+[10560.44] Log: FLevelSaver: 393216 bytes
+[10560.44] Log: m_ObjectDictionarySaver: 131072 bytes
+[10560.44] Log: m_ObjectDictionary: 379136 bytes for 6875 items
+[10560.44] Log: m_SavedObjects: 288960 bytes for 5305 items
+[10660.44] Log: FLevelSaver: 393216 bytes
+[10660.44] Log: m_ObjectDictionarySaver: 131072 bytes
+[10660.44] Log: m_ObjectDictionary: 379136 bytes for 6865 items
+[10660.44] Log: m_SavedObjects: 288960 bytes for 5300 items
+[10763.18] Log: FLevelSaver: 393216 bytes
+[10763.18] Log: m_ObjectDictionarySaver: 131072 bytes
+[10763.18] Log: m_ObjectDictionary: 379136 bytes for 6865 items
+[10763.18] Log: m_SavedObjects: 288960 bytes for 5300 items
+[10775.33] Log: FLevelSaver: 393216 bytes
+[10775.33] Log: m_ObjectDictionarySaver: 131072 bytes
+[10775.33] Log: m_ObjectDictionary: 379136 bytes for 6865 items
+[10775.33] Log: m_SavedObjects: 288960 bytes for 5300 items
+[14258.91] Log: FLevelSaver: 393216 bytes
+[14258.91] Log: m_ObjectDictionarySaver: 131072 bytes
+[14258.91] Log: m_ObjectDictionary: 379136 bytes for 6864 items
+[14258.91] Log: m_SavedObjects: 288960 bytes for 5300 items
+[14357.21] Log: FLevelSaver: 393216 bytes
+[14357.21] Log: m_ObjectDictionarySaver: 131072 bytes
+[14357.21] Log: m_ObjectDictionary: 379136 bytes for 6864 items
+[14357.21] Log: m_SavedObjects: 288960 bytes for 5300 items
+[14605.10] Log: FLevelSaver: 393216 bytes
+[14605.10] Log: m_ObjectDictionarySaver: 131072 bytes
+[14605.10] Log: m_ObjectDictionary: 379136 bytes for 6884 items
+[14605.10] Log: m_SavedObjects: 288960 bytes for 5303 items
+[18650.66] Log: FLevelSaver: 393216 bytes
+[18650.66] Log: m_ObjectDictionarySaver: 131072 bytes
+[18650.66] Log: m_ObjectDictionary: 379136 bytes for 6882 items
+[18650.66] Log: m_SavedObjects: 288960 bytes for 5303 items
+[18662.07] Log: FLevelSaver: 393216 bytes
+[18662.07] Log: m_ObjectDictionarySaver: 131072 bytes
+[18662.07] Log: m_ObjectDictionary: 379136 bytes for 6881 items
+[18662.07] Log: m_SavedObjects: 288960 bytes for 5301 items
+[18728.95] Log: FLevelSaver: 393216 bytes
+[18728.95] Log: m_ObjectDictionarySaver: 131072 bytes
+[18728.95] Log: m_ObjectDictionary: 379136 bytes for 6880 items
+[18728.95] Log: m_SavedObjects: 288960 bytes for 5299 items
+[18985.85] Log: FLevelSaver: 393216 bytes
+[18985.85] Log: m_ObjectDictionarySaver: 131072 bytes
+[18985.85] Log: m_ObjectDictionary: 379136 bytes for 6882 items
+[18985.85] Log: m_SavedObjects: 288960 bytes for 5298 items
+[19041.83] Log: FLevelSaver: 393216 bytes
+[19041.83] Log: m_ObjectDictionarySaver: 131072 bytes
+[19041.83] Log: m_ObjectDictionary: 379136 bytes for 6885 items
+[19041.83] Log: m_SavedObjects: 288960 bytes for 5298 items
+[19261.48] Log: FLevelSaver: 393216 bytes
+[19261.48] Log: m_ObjectDictionarySaver: 131072 bytes
+[19261.48] Log: m_ObjectDictionary: 379136 bytes for 6885 items
+[19261.48] Log: m_SavedObjects: 288960 bytes for 5297 items
+[19278.21] Log: FLevelSaver: 393216 bytes
+[19278.21] Log: m_ObjectDictionarySaver: 131072 bytes
+[19278.21] Log: m_ObjectDictionary: 379136 bytes for 6885 items
+[19278.21] Log: m_SavedObjects: 288960 bytes for 5296 items
+[19369.85] Log: FLevelSaver: 393216 bytes
+[19369.85] Log: m_ObjectDictionarySaver: 131072 bytes
+[19369.85] Log: m_ObjectDictionary: 379136 bytes for 6892 items
+[19369.85] Log: m_SavedObjects: 288960 bytes for 5300 items
+[19417.61] Log: FLevelSaver: 393216 bytes
+[19417.61] Log: m_ObjectDictionarySaver: 131072 bytes
+[19417.61] Log: m_ObjectDictionary: 379136 bytes for 6889 items
+[19417.61] Log: m_SavedObjects: 288960 bytes for 5300 items
+[19460.53] Log: FLevelSaver: 393216 bytes
+[19460.53] Log: m_ObjectDictionarySaver: 131072 bytes
+[19460.53] Log: m_ObjectDictionary: 379136 bytes for 6893 items
+[19460.53] Log: m_SavedObjects: 288960 bytes for 5304 items
+[19486.15] Log: FLevelSaver: 393216 bytes
+[19486.15] Log: m_ObjectDictionarySaver: 131072 bytes
+[19486.15] Log: m_ObjectDictionary: 379136 bytes for 6890 items
+[19486.15] Log: m_SavedObjects: 288960 bytes for 5299 items
+[19531.88] Log: FLevelSaver: 393216 bytes
+[19531.88] Log: m_ObjectDictionarySaver: 131072 bytes
+[19531.88] Log: m_ObjectDictionary: 379136 bytes for 6900 items
+[19531.88] Log: m_SavedObjects: 288960 bytes for 5305 items
+[19575.61] Log: FLevelSaver: 393216 bytes
+[19575.61] Log: m_ObjectDictionarySaver: 131072 bytes
+[19575.61] Log: m_ObjectDictionary: 370944 bytes for 3327 items
+[19575.61] Log: m_SavedObjects: 280768 bytes for 2426 items
+[19599.94] Log: FLevelSaver: 393216 bytes
+[19599.94] Log: m_ObjectDictionarySaver: 131072 bytes
+[19599.94] Log: m_ObjectDictionary: 370944 bytes for 3340 items
+[19599.94] Log: m_SavedObjects: 280768 bytes for 2435 items
+[19677.88] Log: FLevelSaver: 393216 bytes
+[19677.88] Log: m_ObjectDictionarySaver: 131072 bytes
+[19677.88] Log: m_ObjectDictionary: 370944 bytes for 3345 items
+[19677.88] Log: m_SavedObjects: 280768 bytes for 2440 items
+[19725.21] Log: FLevelSaver: 393216 bytes
+[19725.21] Log: m_ObjectDictionarySaver: 131072 bytes
+[19725.21] Log: m_ObjectDictionary: 370944 bytes for 3344 items
+[19725.21] Log: m_SavedObjects: 280768 bytes for 2440 items
+[21459.89] Log: FLevelSaver: 393216 bytes
+[21459.89] Log: m_ObjectDictionarySaver: 131072 bytes
+[21459.89] Log: m_ObjectDictionary: 370944 bytes for 3344 items
+[21459.89] Log: m_SavedObjects: 280768 bytes for 2439 items
+[21527.00] Log: FLevelSaver: 393216 bytes
+[21527.00] Log: m_ObjectDictionarySaver: 131072 bytes
+[21527.00] Log: m_ObjectDictionary: 370944 bytes for 3341 items
+[21527.00] Log: m_SavedObjects: 280768 bytes for 2437 items
+[21659.64] Log: FLevelSaver: 393216 bytes
+[21659.64] Log: m_ObjectDictionarySaver: 131072 bytes
+[21659.64] Log: m_ObjectDictionary: 370944 bytes for 3340 items
+[21659.64] Log: m_SavedObjects: 280768 bytes for 2436 items
+[21731.25] Log: FLevelSaver: 393216 bytes
+[21731.25] Log: m_ObjectDictionarySaver: 131072 bytes
+[21731.25] Log: m_ObjectDictionary: 370944 bytes for 3340 items
+[21731.25] Log: m_SavedObjects: 280768 bytes for 2436 items
+[22183.00] Log: FLevelSaver: 393216 bytes
+[22183.00] Log: m_ObjectDictionarySaver: 131072 bytes
+[22183.00] Log: m_ObjectDictionary: 370944 bytes for 3339 items
+[22183.00] Log: m_SavedObjects: 280768 bytes for 2434 items
+[22209.03] Log: FLevelSaver: 393216 bytes
+[22209.03] Log: m_ObjectDictionarySaver: 131072 bytes
+[22209.03] Log: m_ObjectDictionary: 370944 bytes for 3337 items
+[22209.03] Log: m_SavedObjects: 280768 bytes for 2433 items
+[22254.48] Log: FLevelSaver: 393216 bytes
+[22254.48] Log: m_ObjectDictionarySaver: 131072 bytes
+[22254.48] Log: m_ObjectDictionary: 370944 bytes for 3337 items
+[22254.48] Log: m_SavedObjects: 280768 bytes for 2433 items
+[22296.56] Log: FLevelSaver: 393216 bytes
+[22296.56] Log: m_ObjectDictionarySaver: 131072 bytes
+[22296.56] Log: m_ObjectDictionary: 370944 bytes for 3336 items
+[22296.56] Log: m_SavedObjects: 280768 bytes for 2432 items
+[22421.19] Log: FLevelSaver: 393216 bytes
+[22421.19] Log: m_ObjectDictionarySaver: 131072 bytes
+[22421.19] Log: m_ObjectDictionary: 370944 bytes for 3332 items
+[22421.19] Log: m_SavedObjects: 280768 bytes for 2432 items
+[22555.70] Log: FLevelSaver: 393216 bytes
+[22555.70] Log: m_ObjectDictionarySaver: 131072 bytes
+[22555.70] Log: m_ObjectDictionary: 379136 bytes for 5929 items
+[22555.70] Log: m_SavedObjects: 288960 bytes for 4512 items
+[23042.94] Log: FLevelSaver: 393216 bytes
+[23042.94] Log: m_ObjectDictionarySaver: 131072 bytes
+[23042.94] Log: m_ObjectDictionary: 379136 bytes for 5927 items
+[23042.94] Log: m_SavedObjects: 288960 bytes for 4507 items
+[23513.45] Log: FLevelSaver: 393216 bytes
+[23513.45] Log: m_ObjectDictionarySaver: 131072 bytes
+[23513.45] Log: m_ObjectDictionary: 379136 bytes for 5921 items
+[23513.45] Log: m_SavedObjects: 288960 bytes for 4502 items
+[23721.60] Log: FLevelSaver: 393216 bytes
+[23721.60] Log: m_ObjectDictionarySaver: 131072 bytes
+[23721.60] Log: m_ObjectDictionary: 379136 bytes for 5916 items
+[23721.60] Log: m_SavedObjects: 288960 bytes for 4501 items
+[23737.59] Log: FLevelSaver: 393216 bytes
+[23737.59] Log: m_ObjectDictionarySaver: 131072 bytes
+[23737.59] Log: m_ObjectDictionary: 379136 bytes for 5910 items
+[23737.59] Log: m_SavedObjects: 288960 bytes for 4497 items
+[23816.42] Log: FLevelSaver: 393216 bytes
+[23816.42] Log: m_ObjectDictionarySaver: 131072 bytes
+[23816.42] Log: m_ObjectDictionary: 379136 bytes for 5907 items
+[23816.42] Log: m_SavedObjects: 288960 bytes for 4496 items
+[23822.52] Log: FLevelSaver: 393216 bytes
+[23822.52] Log: m_ObjectDictionarySaver: 131072 bytes
+[23822.52] Log: m_ObjectDictionary: 379136 bytes for 5907 items
+[23822.52] Log: m_SavedObjects: 288960 bytes for 4496 items
+[23903.87] Log: FLevelSaver: 393216 bytes
+[23903.87] Log: m_ObjectDictionarySaver: 131072 bytes
+[23903.87] Log: m_ObjectDictionary: 379136 bytes for 5907 items
+[23903.87] Log: m_SavedObjects: 288960 bytes for 4496 items
+[23958.47] Log: FLevelSaver: 393216 bytes
+[23958.47] Log: m_ObjectDictionarySaver: 131072 bytes
+[23958.47] Log: m_ObjectDictionary: 379136 bytes for 5910 items
+[23958.47] Log: m_SavedObjects: 288960 bytes for 4496 items
+[23984.72] Log: FLevelSaver: 393216 bytes
+[23984.72] Log: m_ObjectDictionarySaver: 131072 bytes
+[23984.72] Log: m_ObjectDictionary: 379136 bytes for 5910 items
+[23984.72] Log: m_SavedObjects: 288960 bytes for 4496 items
+[24141.38] Log: FLevelSaver: 393216 bytes
+[24141.38] Log: m_ObjectDictionarySaver: 131072 bytes
+[24141.38] Log: m_ObjectDictionary: 379136 bytes for 5916 items
+[24141.38] Log: m_SavedObjects: 288960 bytes for 4498 items
+[24205.40] Log: FLevelSaver: 393216 bytes
+[24205.40] Log: m_ObjectDictionarySaver: 131072 bytes
+[24205.40] Log: m_ObjectDictionary: 379136 bytes for 5916 items
+[24205.40] Log: m_SavedObjects: 288960 bytes for 4498 items
+[24209.92] Log: FLevelSaver: 393216 bytes
+[24209.92] Log: m_ObjectDictionarySaver: 131072 bytes
+[24209.92] Log: m_ObjectDictionary: 379136 bytes for 5916 items
+[24209.92] Log: m_SavedObjects: 288960 bytes for 4498 items

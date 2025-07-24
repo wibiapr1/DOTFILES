@@ -1,0 +1,45 @@
+game:
+  exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+  prefix: /home/wibi/Games/ubisoft-connect
+game_slug: ubisoft-connect
+name: Ubisoft Connect
+requires: null
+script:
+  files:
+  - uplay: https://ubistatic3-a.akamaihd.net/orbit/launcher_installer/UbisoftConnectInstaller.exe
+  game:
+    exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+    prefix: $GAMEDIR
+  installer:
+  - task:
+      name: create_prefix
+      prefix: $GAMEDIR
+  - task:
+      app: d3dcompiler_43
+      description: Installing D3D compiler 43
+      name: winetricks
+      prefix: $GAMEDIR
+  - task:
+      app: corefonts
+      description: Installing corefonts
+      name: winetricks
+      prefix: $GAMEDIR
+  - write_file:
+      content: "overlay:\n  enabled: false\n  forceunhookgame: false\n  fps_enabled:\
+        \ false\n  warning_enabled: false\nuser:\n  closebehavior: CloseBehavior_Close"
+      file: $GAMEDIR/drive_c/users/$USER/AppData/Local/Ubisoft Game Launcher/settings.yaml
+  - task:
+      args: /S
+      executable: uplay
+      name: wineexec
+      prefix: $GAMEDIR
+  wine:
+    overrides:
+      libglesv2: d
+slug: ubisoft-connect-latest
+variables: {}
+version: Latest
+wine:
+  overrides:
+    libglesv2: d
+year: 2020
